@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.catalog{
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: scroll;
+}
+.card{
+    display: flex;
+    border: 1px solid black;
+    color: black;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+.card-block{
+    display: flex;
+    width: auto;
+}
+.form-add{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: column;
+}
+.form-add label{
+    margin-bottom: 10px;
+}
+.button__input{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.button__inputtext{
+    padding: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.clear{
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    margin-left: 30px;
+}
+.edit-list {
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.remove{
+    color: black;
+    font-size: x-large;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.add-list{
+    margin-left: 10px;
+}
